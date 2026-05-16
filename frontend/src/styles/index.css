@@ -5,7 +5,8 @@
 }
 
 :root {
-  --primary: #2196f3;
+  --primary: #0099ff; /* blue */
+  --accent: #00d4ff; /* cyan */
   --success: #4caf50;
   --danger: #f44336;
   --warning: #ff9800;
@@ -20,8 +21,7 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, sans-serif;
+  font-family: 'Nunito', sans-serif; /* user prefers Nunito */
   background: #f9f9f9;
   color: var(--dark);
 }
@@ -42,7 +42,7 @@ button {
 }
 
 .btn-primary:hover {
-  background: #1976d2;
+  background: var(--accent);
 }
 
 .btn-primary:disabled {

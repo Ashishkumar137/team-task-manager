@@ -1,5 +1,7 @@
 # 🚀 Team Task Manager
 
+**User Preferences**: Light mode | Blue/Cyan palette | Fonts: Poppins (headings) + Nunito (body)
+
 A full-stack web application for managing projects, teams, and tasks with role-based access control. Features include user authentication, project management, task assignment, and progress tracking.
 
 ## ✨ Features
