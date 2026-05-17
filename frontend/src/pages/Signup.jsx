@@ -32,7 +32,8 @@ export default function Signup() {
 
     } catch (err) {
       console.error(err);
-      setError("Signup failed ❌"); // ✅ FIX
+      const backendError = err.response?.data?.error || err.response?.data?.details?.[0]?.msg;
+      setError(backendError || "Signup failed ❌");
     }
   };
 
