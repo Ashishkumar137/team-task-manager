@@ -57,7 +57,7 @@ export default function ProjectDetail() {
   const getStatusColor = (status) => {
     const colors = {
       TODO: '#999',
-      IN_PROGRESS: '#2196f3',
+      IN_PROGRESS: '#0099ff',
       IN_REVIEW: '#ff9800',
       DONE: '#4caf50',
     };

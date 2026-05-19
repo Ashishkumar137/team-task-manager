@@ -46,7 +46,7 @@ export default function Dashboard() {
   const getStatusColor = (status) => {
     const colors = {
       TODO: '#999',
-      IN_PROGRESS: '#2196f3',
+      IN_PROGRESS: '#0099ff',
       IN_REVIEW: '#ff9800',
       DONE: '#4caf50',
     };
@@ -68,7 +68,7 @@ export default function Dashboard() {
           <div className="stat-number">{stats?.overdue || 0}</div>
           <div className="stat-label">Overdue</div>
         </div>
-        <div className="stat-card info" style={{ borderLeftColor: '#2196f3' }}>
+        <div className="stat-card info" style={{ borderLeftColor: '#0099ff' }}>
           <div className="stat-number">{stats?.inProgress || 0}</div>
           <div className="stat-label">In Progress</div>
         </div>
